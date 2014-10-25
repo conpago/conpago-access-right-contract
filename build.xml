@@ -40,7 +40,7 @@
 		</exec>
 		<exec executable="./vendor/bin/phpunit" osfamily="unix" failonerror="true">
 			<arg value="-c"/>
-			<arg value="tests/phpunit.xml"/>
+			<arg value="phpunit.xml"/>
 		</exec>
 	</target>
 	<target name="test-ci">
