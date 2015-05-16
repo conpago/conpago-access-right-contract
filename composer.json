@@ -1,8 +1,9 @@
 {
 	"name": "saigon/conpago-accessright-contract",
-	"description": "Conpago.AccessRight.Contract",
+	"description": "Conpago framework abstraction layer for access rights management.",
 	"version": "0.0.1-alpha",
 	"type": "library",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
