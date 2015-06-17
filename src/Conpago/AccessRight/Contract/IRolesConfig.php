@@ -6,7 +6,7 @@
 	 * Time: 09:37
 	 */
 
-	namespace Saigon\Conpago\AccessRight\Contract;
+	namespace Conpago\AccessRight\Contract;
 
 
 	interface IRolesConfig

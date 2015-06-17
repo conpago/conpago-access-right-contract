@@ -6,7 +6,7 @@
 	 * Time: 15:07
 	 */
 
-	namespace Saigon\Conpago\AccessRight\Contract\Exceptions;
+	namespace Conpago\AccessRight\Contract\Exceptions;
 
 
 	class CurrentLoggedUserNotImplementAccessRightRequesterException extends \Exception

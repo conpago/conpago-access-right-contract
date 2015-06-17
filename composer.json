@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-accessright-contract",
+	"name": "conpago/conpago-accessright-contract",
 	"description": "Conpago framework abstraction layer for access rights management.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\AccessRight\\Contract\\": "src/"
+			"Conpago\\AccessRight\\Contract\\": "src/"
 		}
 	}
 }
