@@ -24,5 +24,5 @@ interface IAccessRightPresenter
      *
      * @return void
      */
-    public function showAccessDenied();
+    public function showAccessDenied(): void;
 }

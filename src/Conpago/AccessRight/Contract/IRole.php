@@ -24,12 +24,12 @@ interface IRole
      *
      * @return string Returns name of role.
      */
-    public function getRoleName();
+    public function getRoleName(): string;
 
     /**
      * Get access rights assigned to role.
      *
      * @return string[] Array of access rights assigned to role.
      */
-    public function getAccessRights();
+    public function getAccessRights(): array;
 }

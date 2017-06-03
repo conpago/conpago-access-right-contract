@@ -26,5 +26,5 @@ interface IAccessRightChecker
      *
      * @return boolean Returns true if current logged user has assigned access right, otherwise false.
      */
-    public function check($accessRight);
+    public function check(string $accessRight): bool;
 }

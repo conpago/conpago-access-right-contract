@@ -24,5 +24,5 @@ interface IAccessRightRequester
      *
      * @return string[] Returns array of roles assigned to current object.
      */
-    public function getRoles();
+    public function getRoles(): array;
 }

@@ -26,5 +26,5 @@ interface IAccessRightDao
      *
      * @return bool Returns true if current logged user has access right assigned.
      */
-    public function hasAccessRight($accessRight);
+    public function hasAccessRight(string $accessRight): bool;
 }

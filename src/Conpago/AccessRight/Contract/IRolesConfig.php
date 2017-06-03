@@ -24,5 +24,5 @@ interface IRolesConfig
      *
      * @return IRole[] Array of roles available in system.
      */
-    public function getRoles();
+    public function getRoles(): array;
 }
