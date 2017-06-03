@@ -54,10 +54,10 @@
 	</target>
 
 	<target name="phpcs">
-		<phpcodesniffer standard="./vendor/conpago/conpago-dev-tools/phpcs/Conpago/ruleset.xml" format="summary" file="./src" allowedFileExtensions="php php5 inc"/>
+		<phpcodesniffer standard="PSR2" format="summary" file="./src" allowedFileExtensions="php php5 inc"/>
 	</target>
 	<target name="phpcs-ci" hidden="true">
-		<phpcodesniffer standard="./vendor/conpago/conpago-dev-tools/phpcs/Conpago/ruleset.xml" format="summary" file="./src" allowedFileExtensions="php php5 inc">
+		<phpcodesniffer standard="PSR2" format="summary" file="./src" allowedFileExtensions="php php5 inc">
 			<formatter type="checkstyle" outfile="${build}/phpcs.xml"/>
 		</phpcodesniffer>
 	</target>
